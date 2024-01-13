@@ -1,8 +1,11 @@
 {
   "name": "george",
   "version": "1.0.0",
-  "description": "A CLI package to learn about me, George Bullock",
-  "main": "index.js",
+  "bin": {
+    "george": "index.ts"
+  },
+  "description": "A micro CLI package to learn about George Bullock",
+  "main": "index.ts",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:dev": "npx nodemon",
