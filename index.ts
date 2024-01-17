@@ -29,7 +29,7 @@ I earned an MBA from EDHEC Business School in France. I also hold a B.S. in Busi
 
 More about me
 
-🤝  - I work full-time for [Staffbase](https://staffbase.com/en/).
+🤝  - I work full-time for Staffbase - https://staffbase.com/en/.
 
 🛠️ - I know HTML, CSS, JavaScript, React, TypeScript, and basic SQL
 
@@ -39,7 +39,7 @@ More about me
 
 🛣️ - My technical learning roadmap includes a full-stack JavaScript framework (e.g. Blitz, Remix, Sails), full-stack application architecture, AWS via Serverless Framework, PostgreSQL, web animation, data visualization (via D3), and a few GoF design patterns
 
-📝 - In 2020, I published Level Up and Launch(https://medium.com/level-up-and-launch), a limited series of articles about my experience leveling up my technical skills full-time to get my first React job.
+📝 - In 2020, I published Level Up and Launch - https://medium.com/level-up-and-launch, a limited series of articles about my experience leveling up my technical skills full-time to get my first React job.
 
 ✍🏾 - I created a blog named Diaminding (https://www.diaminding.com/about/), but I haven't started publishing yet
 
