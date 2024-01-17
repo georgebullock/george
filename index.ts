@@ -12,7 +12,6 @@ welcome({
 });
 
 console.log(`
-
 I'm a business professional with strong information technology skills.
 
 I have over 10 years of experience working for media and technology companies. I started my career in finance and business development. Post-Grad, I switched to marketing and did growth-oriented marketing for startups. My focuses were user acquisition and conversion optimization.
@@ -48,14 +47,13 @@ More about me
 📫 - You can follow me On Twitter @george_bullock (https://twitter.com/george_bullock)
 
 ⚡ - Other Fun facts 
- - I'm an occasional Unsplash contributor. Check out my photos [here](https://unsplash.com/@george_bullock) 📷.
- - I briefly worked in theatrical marketing for [Lionsgate](https://www.lionsgate.com/). I met a handful of celebs and literally got paid to watch movies 🎬.
+ - I'm an occasional Unsplash contributor. Check out my photos here: (https://unsplash.com/@george_bullock) 📷.
+ - I briefly worked in theatrical marketing for Lionsgate: https://www.lionsgate.com/. I met a handful of celebs and literally got paid to watch movies 🎬.
  - Before moving to Germany 🇩🇪  I lived in France 🇫🇷  and Mexico 🇲🇽  for one year each. But, I don't speak French or Spanish 🤷🏾‍♂️.
  - I love Deep House 🎛️, Synthwave 🦄, 90s Hip Hop 🎤, crime dramas 🔫 (especially Heat and Collateral), sci-fi 🛸, BBQ 🍖, and Asian food 🥡 
- - My favorite restaurant: It's a tie between [Doyum Restaurant](http://www.doyum-restaurant.de/) 🇹🇷 and [Good Friends](https://www.goodfriends-berlin.de/) 🇨🇳.
+ - My favorite restaurant: It's a tie between Doyum Restaurant: http://www.doyum-restaurant.de/ 🇹🇷 and  Good Friends: https://www.goodfriends-berlin.de/) 🇨🇳.
  - My favorite baked good: Oatmeal raisin cookies 🍪.
  - Pineapple on pizza? Nope 🙅🏾‍♂️.
  - My coffee order: Americano with a bit of whole milk 🐮.
  - I mastered the art of making American-style pancakes from scratch 🥞.
-
 `);
