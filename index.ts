@@ -1,8 +1,17 @@
 #!/usr/bin/env node
 
-console.log(`
+const welcome = require(`cli-welcome`);
+const packageJSON = require("./package.json");
 
-Hi 👋, I'm George, a product manager in Berlin, Germany.
+welcome({
+  title: `Hey 👋🏾, I'm George, a product manager in Berlin, Germany`,
+  tagLine: `Thanks for installing my package! `,
+  bgColor: `#4f5d75`,
+  color: `#2d3142`,
+  bold: true,
+});
+
+console.log(`
 
 I'm a business professional with strong information technology skills.
 
