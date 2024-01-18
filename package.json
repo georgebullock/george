@@ -32,7 +32,11 @@
     "bullock",
     "georgebullock"
   ],
-  "author": "George Bullock",
+  "author": {
+    "name": "George Bullock",
+    "url": "https://twitter.com/george_bullock"
+  },
+  "repository": "georgebullock/george-cli",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^28.1.8",

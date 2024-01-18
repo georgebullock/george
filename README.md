@@ -12,6 +12,6 @@ npx georgebullock
 
 Run the command
 
-```
+```sh
 george
 ```
