@@ -4,10 +4,11 @@
     "module": "commonjs",
     "lib": ["es6"],
     "allowJs": true,
+    "rootDir": "./",
     "outDir": "build",
     "strict": true,
     "esModuleInterop": true,
-    "types": ["node", "jest"],
+    "types": ["node"],
     "skipLibCheck": true
   },
   "include": ["index.ts"],
