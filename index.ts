@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 
-const packageJSON = require("./package.json");
-const chalk = require("chalk");
+import packageJSON from './package.json';
+import chalk from 'chalk';
+
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import checkNodeVersion from 'cli-check-node';
 const log = console.log;
 
 // Colors
-const white = chalk.white;
 const cblue = chalk.hex(`#4f5d75`);
 
-// Styles
-const bold = chalk.bold;
+// Check node version
+checkNodeVersion('20');
 
 log(
   `
@@ -40,7 +43,7 @@ Currently, I'm a product manager at Staffbase, which is a leading communications
 I earned an MBA from EDHEC Business School in France. I also hold a B.S. in Business Administration, with an emphasis on finance, from California State University, Los Angeles. And I'm a Project
 Management Institute Agile Certified Practitioner (PMI - ACP) certificate holder.
 
-`)
+`),
 );
 
 log(
@@ -65,7 +68,7 @@ log(
 
 📫 - You can follow me On Twitter @george_bullock: https://twitter.com/george_bullock.
 
-`)
+`),
 );
 
 log(
@@ -88,5 +91,5 @@ log(
 
 - My coffee order: Americano with a bit of whole milk 🐮.
 
-- I mastered the art of making American-style pancakes from scratch 🥞.`)
+- I mastered the art of making American-style pancakes from scratch 🥞.`),
 );

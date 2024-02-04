@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "resolveJsonModule": true,
     "lib": ["es6"],
     "allowJs": true,
     "rootDir": "./",
