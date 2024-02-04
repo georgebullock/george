@@ -6,17 +6,17 @@ const log = console.log;
 
 // Colors
 const white = chalk.white;
-const tblue = chalk.hex(`#4f5d75`);
+const cblue = chalk.hex(`#4f5d75`);
 
 // Styles
 const bold = chalk.bold;
 
 log(
   `
-${tblue.bgWhite.bold.inverse(`Welcome to georgebullock`)} v${
+${cblue.bgWhite.bold.inverse(` Welcome to georgebullock `)} v${
     packageJSON.version
   }. Thanks for installing me!
-`,
+  `,
 
   chalk.dim(`
 Hey 👋🏾, I'm George, a product manager in Berlin, Germany
@@ -40,7 +40,12 @@ Currently, I'm a product manager at Staffbase, which is a leading communications
 I earned an MBA from EDHEC Business School in France. I also hold a B.S. in Business Administration, with an emphasis on finance, from California State University, Los Angeles. And I'm a Project
 Management Institute Agile Certified Practitioner (PMI - ACP) certificate holder.
 
-${bold(`More about me`)}
+`)
+);
+
+log(
+  `${cblue.bgWhite.bold.inverse(` More about me `)}`,
+  chalk.dim(`
 
 🤝 - I work full-time for Staffbase: https://staffbase.com/en/.
 
@@ -60,7 +65,13 @@ ${bold(`More about me`)}
 
 📫 - You can follow me On Twitter @george_bullock: https://twitter.com/george_bullock.
 
-⚡ - ${bold(`Other Fun facts`)} 
+`)
+);
+
+log(
+  `${cblue.bgWhite.bold.inverse(` Other Fun facts `)}`,
+  chalk.dim(`
+
 - I'm an occasional Unsplash contributor. Check out my photos here: https://unsplash.com/@george_bullock 📷.
 
 - I briefly worked in theatrical marketing for Lionsgate: https://www.lionsgate.com/. I met a handful of celebs and literally got paid to watch movies 🎬.
@@ -77,6 +88,5 @@ ${bold(`More about me`)}
 
 - My coffee order: Americano with a bit of whole milk 🐮.
 
-- I mastered the art of making American-style pancakes from scratch 🥞.
-`)
+- I mastered the art of making American-style pancakes from scratch 🥞.`)
 );
